@@ -35,3 +35,4 @@ jobs:
           platformatic_workspace_id: ${{ secrets.PLATFORMATIC_DYNAMIC_WORKSPACE_ID }}
           platformatic_workspace_key: ${{ secrets.PLATFORMATIC_DYNAMIC_WORKSPACE_API_KEY }}
           platformatic_config_path: ./platformatic.db.json
+          label: ${{ github.event.inputs.name }}
